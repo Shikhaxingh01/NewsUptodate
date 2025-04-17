@@ -21,7 +21,7 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 
 
 
-<img src="images/p1.png"> <br>
+<img src="news/p1.png"> <br>
 <img src="images/p2.png"> <br>
 <img src="images/p3.png"> <br>
 <img src="images/p4.png"> <br>
