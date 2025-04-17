@@ -40,7 +40,7 @@ const News = (props) => {
     setPage((prevPage) => prevPage + 1); // ✅ Functional update
 
     const nextPage = page + 1; // 🚨 This will not reflect the latest state immediately
-    const url = `https://newsapi.org/v2/top-headlines?country=${props.country}&category=${props.category}&apiKey=${props.apikey}&page=${nextPage}&pageSize=${props.pageSize}`;
+    const url = `https://newsapi.org/v2/top-headlines?country=$&category=${props.category}&apiKey=${props.apikey}&page=${nextPage}&pageSize=${props.pageSize}`;
 
     let data = await fetch(url);
     let parsedData = await data.json();
